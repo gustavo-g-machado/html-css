@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /*
+            Medidas aboslutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh %
+            16px geralmente = 1em
+            melhor usar o em ou px
+            */
+            font-size: 1em;
+            font-weight: 200;
+            font-style: normal;
+            /* font-style > lighter normal bold bolder */
+        }
+
+        h1{
+            /*
+            font-size: 1em;
+            font-weight: 200;
+            font-style: normal;
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em sans-serif
+        }
+        h2{
+            font: bolder 2em arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dicta laudantium. Vel, quae! Dolorem, dicta! Quidem accusantium nemo laudantium, a nostrum labore nesciunt officiis blanditiis quisquam, totam dignissimos laboriosam pariatur.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint adipisci consectetur veniam esse dignissimos fugiat aut nam cupiditate, facere reprehenderit repellendus eveniet aspernatur voluptatum eos nisi perspiciatis est iusto. Maiores rem eligendi cupiditate fuga dolorum, porro natus corporis praesentium sapiente labore corrupti animi ipsam magnam minus dolore. Consectetur, assumenda nulla. </p>
+</body>
+</html>

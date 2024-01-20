@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: black;
+            
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellowgreen;
+        }
+
+        a::after{
+            content: '[ link ]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+        .especial{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://login.unime.edu.br/?client_id=169104&response_type=code&referrer=alunodigital.unime.edu.br&m=Sua+sess%C3%A3o+expirou.+Fa%C3%A7a+login+novamente+para+continuar.">Login Kroton</a></li>
+        <li><a href="https://z-library.se/">Z-Library</a></li>
+
+    </ul>
+</body>
+</html>
