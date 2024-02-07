@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 11</title>
+    <title>Desafio astronauta</title>
     <style>
         section{
-            
+            position: relative;
             background-image: url('imagens/espaco.jpg');
-            background-size: 100% 100%;
+            background-size: cover;
             background-repeat: no-repeat;
-            height: 500px;
-            margin: auto;
+            width: 98vw;
+            height: 97vh;
+           
             
         }
-    </style>
+       img{
+            background-image: url('imagens/astronauta.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            
+            left: 50%;
+            top: 50%;
 
+            transform: translate(-50%,-50%);
+
+        }
+    </style>
 </head>
 <body>
     <section>
-        <article id="conteudo">
-
+        <article>
+            <img src="imagens/astronauta.png" alt="">
         </article>
     </section>
 </body>
