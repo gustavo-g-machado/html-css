@@ -1,1 +1,1 @@
-console.log ('Os dados foram enviados')
+Os dados foram enviados
