@@ -1,1 +1,1 @@
-Os dados foram enviados
+console.log ('Os dados foram enviados');
