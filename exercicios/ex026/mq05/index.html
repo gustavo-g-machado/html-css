@@ -7,8 +7,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
          <i id="burguer" class="material-icons" onclick="clickNav()">menu</i> 
@@ -30,6 +31,17 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur assumenda id sed omnis blanditiis aliquam expedita ex nulla, temporibus debitis quod labore aspernatur tempore laborum tenetur fuga illum impedit necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum ut similique autem, assumenda amet accusamus non aspernatur obcaecati dolorem sed, architecto odio molestias dolores sapiente hic iusto reprehenderit quaerat.</p>
         </article>
     </main>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+                
+        }
+    </script>
     <script>
         function clickNav() {
                 if (itens.style.display == 'block') {
